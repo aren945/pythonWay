@@ -25,17 +25,17 @@ s = Student()
 
 
 class Man(object):
-  @property
-  def age(self):
-    return self._age # 记得下划线
+    @property
+    def age(self):
+      return self._age  # 记得下划线
 
-  @age.setter
-  def age(self, value):
-    if not isinstance(value, int):
-      raise ValueError('score must be an integer!')
-    if value < 0 or value > 100:
-      raise ValueError('score must between 0 ~ 100!')
-    self._age = value
+    @age.setter
+    def age(self, value):
+        if not isinstance(value, int):
+            raise ValueError('score must be an integer!')
+        if value < 0 or value > 100:
+            raise ValueError('score must between 0 ~ 100!')
+        self._age = value
 
 m = Man()
 

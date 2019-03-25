@@ -1,3 +1,7 @@
+if (0,):
+  print(123123)
+
+
 s = int(input(">>:"))
 
 if s > 100:
@@ -24,3 +28,13 @@ dasd
 dasd
 dasds
 ''')
+
+
+testNum = 3
+
+
+def test_fn():
+    print(testNum)
+
+
+test_fn()

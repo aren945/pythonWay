@@ -3,4 +3,4 @@ from testpackge.b.b import *
 
 testpackge.a.aa.print_p()
 
-print_p();
+print_p()

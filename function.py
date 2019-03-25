@@ -10,6 +10,15 @@ print(b)
 
 
 
+def testManyReturns():
+  return 1,2,3,4
+
+
+print(testManyReturns())
+test1, test2, test3, test4 = testManyReturns()
+
+print('test1 is %s' % (test1))
+
 def ab(a = []):
   a.append('END')
   return a

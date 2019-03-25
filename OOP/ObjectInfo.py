@@ -2,7 +2,7 @@
 # 判断对象类型，使用type
 type(12)
 
-import ClassDemo
+import  OOP.ClassDemo as ClassDemo
 
 a = ClassDemo.Man('zheng', 100)
 
