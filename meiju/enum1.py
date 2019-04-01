@@ -1,4 +1,4 @@
-from enum import Enum
+from enum import Enum, IntEnum
 
 
 class VIP(Enum):
@@ -32,3 +32,7 @@ for v in VIP:
 print(VIP.black == VIP.green) # False
 print(VIP.black == 4) # False
 print(VIP.black.value == 4) # True
+
+
+class TESTENUM(IntEnum):
+	pass
